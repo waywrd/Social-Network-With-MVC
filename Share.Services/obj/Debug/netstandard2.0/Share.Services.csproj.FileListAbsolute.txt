@@ -1,0 +1,13 @@
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Share.Services.deps.json
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Share.Services.dll
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Share.Services.pdb
+C:\Users\hack_\source\repos\Share\Share.Services\obj\Debug\netstandard2.0\Share.Services.csprojAssemblyReference.cache
+C:\Users\hack_\source\repos\Share\Share.Services\obj\Debug\netstandard2.0\Share.Services.AssemblyInfoInputs.cache
+C:\Users\hack_\source\repos\Share\Share.Services\obj\Debug\netstandard2.0\Share.Services.AssemblyInfo.cs
+C:\Users\hack_\source\repos\Share\Share.Services\obj\Debug\netstandard2.0\Share.Services.dll
+C:\Users\hack_\source\repos\Share\Share.Services\obj\Debug\netstandard2.0\Share.Services.pdb
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Share.Data.dll
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Share.Data.pdb
+C:\Users\hack_\source\repos\Share\Share.Services\obj\Debug\netstandard2.0\Share.Services.csproj.CopyComplete
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\hack_\source\repos\Share\Share.Services\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.xml

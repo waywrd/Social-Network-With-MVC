@@ -1,0 +1,18 @@
+﻿@model ICollection<FriendRequestViewModel>
+
+@{
+    ViewData["Title"] = "FriendRequests";
+}
+
+<h1>FriendRequests</h1>
+
+
+@foreach (var item in Model)
+{
+    <p>@item.Username</p>
+    <form method="post" asp-action="AcceptFriendRequest"  asp-controller="User" asp-route-friendId="@item.UserId">
+        <button type="submit">Accept</button>
+    </form>
+
+
+}

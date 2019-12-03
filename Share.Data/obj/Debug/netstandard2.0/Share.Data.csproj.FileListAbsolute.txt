@@ -1,0 +1,8 @@
+C:\Users\hack_\source\repos\Share\Share.Data\bin\Debug\netstandard2.0\Share.Data.deps.json
+C:\Users\hack_\source\repos\Share\Share.Data\bin\Debug\netstandard2.0\Share.Data.dll
+C:\Users\hack_\source\repos\Share\Share.Data\obj\Debug\netstandard2.0\Share.Data.AssemblyInfoInputs.cache
+C:\Users\hack_\source\repos\Share\Share.Data\obj\Debug\netstandard2.0\Share.Data.AssemblyInfo.cs
+C:\Users\hack_\source\repos\Share\Share.Data\bin\Debug\netstandard2.0\Share.Data.pdb
+C:\Users\hack_\source\repos\Share\Share.Data\obj\Debug\netstandard2.0\Share.Data.dll
+C:\Users\hack_\source\repos\Share\Share.Data\obj\Debug\netstandard2.0\Share.Data.pdb
+C:\Users\hack_\source\repos\Share\Share.Data\obj\Debug\netstandard2.0\Share.Data.csprojAssemblyReference.cache

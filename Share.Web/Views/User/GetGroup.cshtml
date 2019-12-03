@@ -1,0 +1,96 @@
+﻿@model GetAllGroupsViewModel
+<h2>@Model.Groups.GroupName</h2>
+<h7 class="text-muted">@Model.Groups.GroupDescription</h7>
+<div class="row justify-content-center">
+
+    <div class="col-md-6 col-md-offset-4">
+
+
+        <h2>Create post</h2>
+
+        <form asp-action="GroupPost" asp-controller="User" method="POST" enctype="multipart/form-data">
+
+
+
+            <div class="form-group">
+                <label for="title">Title <span class="require">*</span></label>
+                <input name="title" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="content">Content</label>
+                <textarea rows="5" class="form-control" name="content"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="image">Photo</label>
+                <input class="form-control-file" type="file" name="image" />
+            </div>
+
+            <input type="hidden" name="id" value="@Model.Groups.Id" />
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    Post
+                </button>
+
+                <button class="btn btn-default">
+                    Cancel
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+@if (Model.Groups.GroupPosts!=null)
+{ 
+   @foreach (var item in Model.Groups.GroupPosts)
+            {
+
+<!--- \\\\\\\Post-->
+<div class="row justify-content-center">
+    <div class="card gedf-card ">
+        <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="mr-2">
+                        <img class="rounded-circle" width="45" src="https://picsum.photos/50/50" alt="">
+                    </div>
+
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0">@item.ApplicationUser.UserName</div>
+                    <div class="h7 text-muted">@item.ApplicationUser.UserName</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="embed-responsive embed-responsive-16by9">
+                <img alt="Card image cap" class="card-img-top embed-responsive-item" src="@item.ImagePath" />
+            </div>
+            <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>@item.CreatedOn</div>
+
+            <h5 class="card-title">@item.Title</h5>
+
+
+            <p class="card-text">
+                @item.Content
+            </p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="card-link"><i class="fa fa-gittip"></i> Like</a>
+            <a href="#" class="card-link"><i class="fa fa-comment"></i> Comment</a>
+            <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Share</a>
+        </div>
+    </div>
+</div>
+
+
+
+            }
+        }

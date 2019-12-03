@@ -1,0 +1,28 @@
+﻿@model ICollection<Group>
+
+
+<h1>Public Groups</h1>
+
+@foreach (var item in Model)
+{
+    <div class="row justify-content-center">
+        <div class="card gedf-card ">
+            <div class="card-body">
+               
+                <a class="card-link" asp-controller="User" asp-action="GetGroup" asp-route-groupName="@item.GroupName">
+                    <h5 class="card-title">@item.GroupName</h5>
+                </a>
+
+                <p class="card-text">
+                    @item.GroupDescription
+                </p>
+            </div>
+            <div class="card-footer">
+                <a href="#" class="card-link"><i class="fa fa-gittip"></i> Like</a>
+                <a href="#" class="card-link"><i class="fa fa-comment"></i> Comment</a>
+                <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Share</a>
+            </div>
+        </div>
+    </div>
+}
+
